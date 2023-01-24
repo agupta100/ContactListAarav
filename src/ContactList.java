@@ -33,7 +33,7 @@ public class ContactList
     }
     /**
      * Asks user for input to create and add a new Person
-     * to the contact list
+     * to the contact list.
      */
     public void addContact() {
         Scanner s = new Scanner(System.in);
