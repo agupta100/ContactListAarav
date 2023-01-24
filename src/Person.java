@@ -1,6 +1,5 @@
 /**
  * A class that represents a Person
- *
  * Created for Menlo School CS2
  *
  * @author: Ms. Namasivayam & Mr. Blick
@@ -8,5 +7,34 @@
  */
 
 public class Person {
-    // TODO: Complete the Person class
+    // Instance Variables
+    private String firstName;
+    private String lastName;
+    private String phoneNumber;
+    // Constructor
+    public Person (String firstName, String lastName, String phoneNumber) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+    }
+
+    // No-arg constructor
+    public Person() {}
+
+    // Methods
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String toString() {
+        return firstName + " " + lastName + " - #" + phoneNumber;
+    }
 }
